@@ -12,20 +12,9 @@
 
 - [tiaan](#tiaan)
     - [Table of Contents](#table-of-contents)
-    - [Install](#install)
     - [Usage](#usage)
     - [Contribute](#contribute)
     - [License](#license)
-
-## Install
-
-This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). 
-
-```sh
-$ npm install tiaan
-$ # OR
-$ yarn add tiaan
-```
 
 ## Usage
 
