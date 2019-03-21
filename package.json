@@ -1,0 +1,28 @@
+{
+  "name": "tiaan",
+  "version": "1.0.0",
+  "description": "Tiaan du Plessis's résumé",
+  "main": "index.js",
+  "repository": "https:/github.com/tiaanduplessis/resume",
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "bin": "index.js",
+  "scripts": {
+    "test": "yarn format && yarn lint",
+    "lint": "standard --fix './**/*.js'",
+    "format": "prettier-standard './**/*.js'"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.2"
+  },
+  "devDependencies": {
+    "prettier-standard": "^9.1.1",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "env": {
+      "browser": true
+    }
+  }
+}
